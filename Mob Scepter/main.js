@@ -1,23 +1,3 @@
-Translation.addTranslation ("Blank Scepter", {zh: "空白权杖"});
-Translation.addTranslation ("Skeleton Scepter", {zh: "骷髅权杖"});
-Translation.addTranslation ("Evoker Scepter", {zh: "唤魔者权杖"});
-Translation.addTranslation ("Electrified Creeper Scepter", {zh: "闪电苦力怕权杖"});
-Translation.addTranslation ("Shulker Scepter", {zh: "潜影贝权杖"});
-Translation.addTranslation ("Wither Skeleton Scepter", {zh: "凋零骷髅权杖"});
-Translation.addTranslation ("Wither Scepter", {zh: "凋零权杖"});
-Translation.addTranslation ("Enderman Scepter", {zh: "末影人权杖"});
-Translation.addTranslation ("Ender Dragon Scepter", {zh: "末影龙权杖"});
-Translation.addTranslation ("\nUse:", {zh: "\n用法："});
-Translation.addTranslation ("\n§fMethod of obtaining:", {zh: "\n§f获取方式："});
-Translation.addTranslation ("\n§7Use Blank Scepter to kill the \ncorresponding Mob", {zh: "\n§7使用空白权杖击杀相应怪物"});
-Translation.addTranslation ("\n§7Launch an arrow", {zh: "\n§7发射箭矢"});
-Translation.addTranslation ("\n§7Generate a 5*5 Evoker Fangs \nin front of the player", {zh: "\n§7在玩家周围5*5区域\n生成唤魔者尖牙"});
-Translation.addTranslation ("\n§7Launch Shulker Bullet", {zh: "\n§7发射潜影贝导弹"});
-Translation.addTranslation ("\n§7Lightning is generated at the player's \nlong-pressed block or Mob attack", {zh: "\n§7生成雷电劈中\n玩家点击方块或攻击生物"});
-Translation.addTranslation ("\n§7Throw the Wither Skull", {zh: "\n§7投掷凋零头颅"});
-Translation.addTranslation ("\n§7Throwing Eye of Ender", {zh: "\n§7投掷末影珍珠"});
-Translation.addTranslation ("\n§7The attacked Mob gains the \nWither effect for five minutes", {zh: "\n§7给予被攻击生物\n5分钟凋零效果"});
-Translation.addTranslation ("\n§7Throw Dragon Fireball", {zh: "\n§7投掷末影龙火球"});
 /*
 Author:Wudasha
 Version:0.1
@@ -49,7 +29,27 @@ var McMath = {
         }
     }
 };
-
+//Translation
+Translation.addTranslation ("Blank Scepter", {zh: "空白权杖"});
+Translation.addTranslation ("Skeleton Scepter", {zh: "骷髅权杖"});
+Translation.addTranslation ("Evoker Scepter", {zh: "唤魔者权杖"});
+Translation.addTranslation ("Electrified Creeper Scepter", {zh: "闪电苦力怕权杖"});
+Translation.addTranslation ("Shulker Scepter", {zh: "潜影贝权杖"});
+Translation.addTranslation ("Wither Skeleton Scepter", {zh: "凋零骷髅权杖"});
+Translation.addTranslation ("Wither Scepter", {zh: "凋零权杖"});
+Translation.addTranslation ("Enderman Scepter", {zh: "末影人权杖"});
+Translation.addTranslation ("Ender Dragon Scepter", {zh: "末影龙权杖"});
+Translation.addTranslation ("\nUse:", {zh: "\n用法："});
+Translation.addTranslation ("\n§fMethod of obtaining:", {zh: "\n§f获取方式："});
+Translation.addTranslation ("\n§7Use Blank Scepter to kill the \ncorresponding Mob", {zh: "\n§7使用空白权杖击杀相应怪物"});
+Translation.addTranslation ("\n§7Launch an arrow", {zh: "\n§7发射箭矢"});
+Translation.addTranslation ("\n§7Generate a 5*5 Evoker Fangs \nin front of the player", {zh: "\n§7在玩家周围5*5区域\n生成唤魔者尖牙"});
+Translation.addTranslation ("\n§7Launch Shulker Bullet", {zh: "\n§7发射潜影贝导弹"});
+Translation.addTranslation ("\n§7Lightning is generated at the player's \nlong-pressed block or Mob attack", {zh: "\n§7生成雷电劈中\n玩家点击方块或攻击生物"});
+Translation.addTranslation ("\n§7Throw the Wither Skull", {zh: "\n§7投掷凋零头颅"});
+Translation.addTranslation ("\n§7Throwing Eye of Ender", {zh: "\n§7投掷末影珍珠"});
+Translation.addTranslation ("\n§7The attacked Mob gains the \nWither effect for five minutes", {zh: "\n§7给予被攻击生物\n5分钟凋零效果"});
+Translation.addTranslation ("\n§7Throw Dragon Fireball", {zh: "\n§7投掷末影龙火球"});
 //Blank Scepter
 IDRegistry.genItemID("blankScepter");
 Item.createItem("blankScepter", "Blank Scepter", {name: "blankScepter", meta: 0}, {stack: 1});
@@ -250,5 +250,3 @@ Recipes.addShaped ({id: ItemID.enderDragonScepter, count: 1, data: 0}, [
      ""
 
 ], ['x', ItemID.blankScepter, 0, 'a', 122, 0]);
-
-//Translation
